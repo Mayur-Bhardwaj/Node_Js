@@ -1,0 +1,20 @@
+What is Node Js?
+ It is not a language. This is a Server Environment.It can connect with database.
+ Code and syntax is similar to Javascript.But not exactly same. It is free and open-source.It uses Chrome's V8 engine to execute code.
+Client Serer:
+The client send the request from the browser and the web server send the response to the client.
+
+Request & Response : 
+req and res send into http : Web Server language can understand by http Protocol.
+                    We we send the request is send. In the request they contain 3 parts RequestLine, Headers, Body.
+1. RequestLine : It define which type of message contain. GET, PUT, POST, DELETEand giver the server PATCH.
+2. Headers: They contain additional data.In which format need res(hindi/english).
+3. Body: They are send by the user. Ex: username: mayur,  password: 12345678.
+
+HTTP Response: It contain 3 parts: Status Line, Headers, Body.
+1. Status Line: 200 "Ok". Server send the status, that which thing you search it is ok, or 404 they not find.
+2. Headers: They contain the server extra information. Ex: Server name, content-length, content-type, expires.
+3. Body: Content Data.
+
+.> If we convert the data into string, to convert this we use toString() object.
+Or If we convert the js object or JSON Object then we use JSON.stringify(data);
